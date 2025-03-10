@@ -4,12 +4,10 @@ pipeline {
         nodejs "NodeJS 20"
     }
     stages {
-        stage ('build') {
+        stage('build') {
             steps {
                 npm install
-            }
-            steps {
-            	npm run build
+                npm run build
             }
         }
     }
