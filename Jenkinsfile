@@ -12,6 +12,8 @@ pipeline {
         }
     }
     post {
-		npm test
+    	always {
+			npm test	
+    	}
     }
 }
