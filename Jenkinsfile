@@ -12,6 +12,6 @@ pipeline {
         }
     }
     post {
-           npm test
+		npm test
     }
 }
