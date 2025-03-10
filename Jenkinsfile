@@ -13,7 +13,7 @@ pipeline {
     }
     post {
     	always {
-			npm test	
+			sh 'npm test'	
     	}
     }
 }
